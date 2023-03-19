@@ -1,5 +1,18 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(-45deg, #D16BA5, #86A8E7, #5FFBF1);
+  height: 100vh;
+  background-size: 500% 500%;
+  animation-name: gradient-change;
+  animation-duration: 15s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  color: white;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
 }
 
 #name {
@@ -7,13 +20,33 @@ body {
   margin: auto;
 }
 
+#my-name{
+  font-size: 2.3em;
+  font-weight: bolder;
+}
+
+.nav-link {
+  color: rgb(90, 90, 90);
+  font-weight: bold;
+}
+
+#top-nav {
+  margin-top: 0.2em;
+}
+
 #top-nav-link-group {
   float: right;
 }
 
 #top-nav a:hover {
-  color: green;
+  color: white;
   transition: 0.5s;
+}
+
+#main-body {
+  width: 90%;
+  border-radius: 10px;
+  background-color: white;
 }
 
 /*
