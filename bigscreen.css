@@ -4,10 +4,9 @@ body {
   height: 100vh;
   background-size: 500% 500%;
   animation-name: gradient-change;
-  animation-duration: 15s;
+  animation-duration: 10s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
-  color: white;
   -ms-user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -21,17 +20,27 @@ body {
 }
 
 #my-name{
-  font-size: 2.3em;
+  color: white;
+  font-size: 1.2em;
   font-weight: bolder;
 }
 
 .nav-link {
   color: rgb(90, 90, 90);
   font-weight: bold;
+  font-size: 1em;
 }
 
 #top-nav {
   margin-top: 0.2em;
+}
+
+.nav-item {
+  margin: 0px 0.6em;
+}
+
+#top-nav-links {
+  border-bottom: solid 0.1em white;
 }
 
 #top-nav-link-group {
@@ -44,9 +53,35 @@ body {
 }
 
 #main-body {
-  width: 90%;
+  width: 60%;
   border-radius: 10px;
   background-color: white;
+  margin-top: 2em;
+}
+
+#introduction {
+  margin: 2em;
+}
+
+#introduction > h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#introduction > p {
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+/* CSS for PacMan below */
+
+#pac {
+  margin: 2em auto;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  background-color: yellow;
+  animation: pacman 2s infinite;
 }
 
 /*
