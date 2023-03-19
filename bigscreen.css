@@ -1,0 +1,23 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#name {
+  float: left;
+  margin: auto;
+}
+
+#top-nav-link-group {
+  float: right;
+}
+
+#top-nav a:hover {
+  color: green;
+  transition: 0.5s;
+}
+
+/*
+div {
+  border: solid;
+}
+*/
