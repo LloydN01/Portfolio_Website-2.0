@@ -26,7 +26,7 @@ body {
 }
 
 .nav-link {
-  color: rgb(90, 90, 90);
+  color: black;
   font-weight: bold;
   font-size: 1em;
 }
@@ -57,13 +57,15 @@ body {
   border-radius: 10px;
   background-color: white;
   margin-top: 2em;
+  border: solid;
 }
 
 #introduction {
-  margin: 2em;
+  margin: 3em 2em;
 }
 
 #introduction > h1 {
+  color: #86A8E7;
   font-size: 4em;
   font-weight: bold;
 }
@@ -76,7 +78,7 @@ body {
 /* CSS for PacMan below */
 
 #pac {
-  margin: 2em auto;
+  margin: 2em;
   width: 10em;
   height: 10em;
   border-radius: 50%;
