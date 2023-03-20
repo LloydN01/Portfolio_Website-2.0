@@ -32,7 +32,7 @@ body {
 }
 
 #top-nav {
-  margin-top: 0.2em;
+  padding: 0.6em;
 }
 
 .nav-item {
@@ -70,12 +70,24 @@ body {
   font-weight: bold;
 }
 
+
 #introduction > p {
   margin-top: 2em;
   font-size: 2em;
 }
 
+#introduction > p > span {
+  color: #D16BA5;
+  font-weight: bold;
+}
+
 /* CSS for PacMan below */
+
+/*
+#pacman {
+  border: solid;
+}
+*/
 
 #pac {
   margin: 2em;
