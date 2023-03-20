@@ -83,19 +83,21 @@ body {
 
 /* CSS for PacMan below */
 
-/*
-#pacman {
-  border: solid;
-}
-*/
-
 #pac {
   margin: 2em;
   width: 10em;
   height: 10em;
   border-radius: 50%;
   background-color: yellow;
-  animation: pacman 2s infinite;
+  animation: pacman 1.5s infinite;
+}
+
+.mints {
+  width: 1em;
+  height: 1em;
+  margin: auto;
+  border-radius: 50%;
+  background-color: yellow;
 }
 
 /*
