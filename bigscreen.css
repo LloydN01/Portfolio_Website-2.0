@@ -12,7 +12,6 @@ body {
   -moz-user-select: none;
   -khtml-user-select: none;
   user-select: none;
-  overflow-x: hidden;
 }
 
 #name {
@@ -30,10 +29,6 @@ body {
   color: black;
   font-weight: bold;
   font-size: 1em;
-}
-
-#top-nav {
-  padding: 0.6em;
 }
 
 .nav-item {
