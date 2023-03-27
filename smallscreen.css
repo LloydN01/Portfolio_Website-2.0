@@ -21,6 +21,9 @@
 
 #main-body {
   width: 90%;
+  
+  /* TODO: Once more content is added to the bottom of site, this div will automatically extend to the bottom. Hence, remove "height: 70%" */
+  height: 70%;
 }
 
 #introduction {
@@ -42,4 +45,8 @@
   border-radius: 50%;
   background-color: yellow;
   animation: pacman 1.5s infinite;
+}
+
+#mint4, #mint5 {
+  display: none;
 }

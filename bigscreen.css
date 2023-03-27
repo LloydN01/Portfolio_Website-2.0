@@ -50,7 +50,6 @@ body {
 
 #main-body {
   width: 60%;
-  height: 85vh;
   border-radius: 10px;
   background-color: white;
   margin-top: 2em;
@@ -74,7 +73,6 @@ body {
   font-size: 4em;
   font-weight: bold;
 }
-
 
 #introduction > p {
   margin-top: 2em;
