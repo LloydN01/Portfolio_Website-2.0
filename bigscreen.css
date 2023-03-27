@@ -50,6 +50,7 @@ body {
 
 #main-body {
   width: 60%;
+  height: 85vh;
   border-radius: 10px;
   background-color: white;
   margin-top: 2em;
