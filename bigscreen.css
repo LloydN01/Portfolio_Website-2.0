@@ -60,6 +60,14 @@ body {
   margin: 3em 2em;
 }
 
+#hello-world {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+   -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+       animation: fadein 3s;
+}
+
 #introduction > h1 {
   color: #86A8E7;
   font-size: 4em;
@@ -79,7 +87,7 @@ body {
 
 /* CSS for PacMan below */
 
-#pac {
+#pacman {
   margin: 2em;
   width: 10em;
   height: 10em;
