@@ -38,14 +38,35 @@
   font-size: 1em;
 }
 
-#pac {
-  margin: 1.2em;
-  width: 5em;
-  height: 5em;
-  border-radius: 50%;
-  background-color: yellow;
-  animation: pacman 1.5s infinite;
+#pacman {
+  width: 4em;
+  height: 4em;
 }
+
+.ghost{
+  height: 4em;
+  width: 3em;
+}
+
+.eyes{
+  margin-left: -20px;
+  width: 2.5em;
+  top: 15px;
+}
+
+.eye{
+  height: 25px;
+  width: 15px;
+}
+
+.iris{
+  height: 15px;
+  width: 10px;
+  top: 5px;
+}
+
+.leftEye .iris{ left: 2.5px; }
+.rightEye .iris{ left: 2.5px; }
 
 #path {
   margin-top: 6em;
