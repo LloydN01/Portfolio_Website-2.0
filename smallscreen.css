@@ -55,14 +55,14 @@
 }
 
 .eye{
-  height: 25px;
+  height: 23px;
   width: 15px;
 }
 
 .iris{
   height: 15px;
   width: 10px;
-  top: 5px;
+  top: 4px;
 }
 
 .leftEye .iris{ left: 2.5px; }
