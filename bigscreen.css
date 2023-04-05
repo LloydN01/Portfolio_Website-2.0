@@ -95,7 +95,7 @@ body {
   height: 10em;
   border-radius: 50%;
   background-color: yellow;
-  margin-right: 2em;
+  margin-right: 1.5em;
   animation: pacman 1.5s infinite;
 }
 
