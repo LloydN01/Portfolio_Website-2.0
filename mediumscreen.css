@@ -24,7 +24,12 @@
     width: 15px;
     top: 8px;
     left: -10px;
+    animation: iris-medium 1.5s infinite;
   }
 
+  .iris-delay-neg-500 {
+    animation-delay: -500ms;
+  }
+  
   .leftEye .iris{ left: 4.5px; }
   .rightEye .iris{ left: 4.5px; }

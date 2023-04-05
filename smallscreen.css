@@ -63,6 +63,11 @@
   height: 15px;
   width: 10px;
   top: 4px;
+  animation: iris-small 1.5s infinite;
+}
+
+.iris-delay-neg-500 {
+  animation-delay: -500ms;
 }
 
 .leftEye .iris{ left: 2.5px; }
