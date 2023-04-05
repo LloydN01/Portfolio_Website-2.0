@@ -47,6 +47,6 @@
   animation: pacman 1.5s infinite;
 }
 
-#mint4, #mint5 {
-  display: none;
+#path {
+  margin-top: 6em;
 }
