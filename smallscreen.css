@@ -1,9 +1,21 @@
-#top-nav {
+#name {
+  text-align: center;
   margin-top: 1em;
 }
 
-#name {
+#nav-content {
+  width: 100%;
+}
+
+#top-nav-links {
+  display: none;
+}
+
+#hamburger {
+  cursor: pointer;
   text-align: center;
+  display: inline;
+  color: white;
 }
 
 .navbar-nav {
@@ -21,9 +33,6 @@
 
 #main-body {
   width: 90%;
-  
-  /* TODO: Once more content is added to the bottom of site, this div will automatically extend to the bottom. Hence, remove "height: 70%" */
-  height: 70%;
 }
 
 #introduction {
@@ -41,6 +50,7 @@
 #pacman {
   width: 4em;
   height: 4em;
+  margin: auto;
 }
 
 .ghost{
@@ -74,5 +84,5 @@
 .rightEye .iris{ left: 2.5px; }
 
 #path {
-  margin-top: 6em;
+  margin: 6em 0em;
 }

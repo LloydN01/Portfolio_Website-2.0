@@ -1,20 +1,14 @@
 body {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+            supported by Chrome, Edge, Opera and Firefox */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 100vh;
-  /*
-  background: linear-gradient(-45deg, #D16BA5, #86A8E7, #5FFBF1);
-  background-size: 500% 500%;
-  animation-name: gradient-change;
-  animation-duration: 10s;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  user-select: none;
-  */
-  background-color: black ;
+  background-color: #743018;
 }
 
 #name {
@@ -22,15 +16,22 @@ body {
   margin: auto;
 }
 
-#my-name{
-  color: #FB2576;
+#my-name {
+  color: #4ea481;
   font-size: 1.2em;
   font-weight: bolder;
   font-style: italic;
 }
 
+#hamburger {
+  display: none;
+}
+
+#hamburger a {
+  color: #4ea481;
+}
 .nav-link {
-  color: #16FF00;
+  color: #4ea481;
   font-weight: bold;
   font-size: 1em;
 }
@@ -40,7 +41,7 @@ body {
 }
 
 #top-nav-links {
-  border-bottom: solid 0.1em #FB2576;
+  border-bottom: solid 0.1em #4ea481;
 }
 
 #top-nav-link-group {
@@ -48,16 +49,16 @@ body {
 }
 
 #top-nav a:hover {
-  color: #FB2576;
+  color: #1b1b1b;
   transition: 0.5s;
 }
 
 #main-body {
-  width: 60%;
+  width: 80%;
   border-radius: 10px;
-  background-color: #161616;
+  background-color: #1b1b1b;
   margin-top: 2em;
-  border: solid #FB2576;
+  border: solid 1px;
 }
 
 #introduction {
@@ -68,13 +69,13 @@ body {
 #hello-world {
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 3s; /* Firefox < 16 */
-   -ms-animation: fadein 3s; /* Internet Explorer */
-    -o-animation: fadein 3s; /* Opera < 12.1 */
-       animation: fadein 3s;
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
 }
 
 #introduction > h1 {
-  color: #31C6D4;
+  color: #d66c1f;
   font-size: 4em;
   font-weight: bold;
 }
@@ -85,15 +86,14 @@ body {
 }
 
 #introduction > p > span {
-  color: #16FF00;
-  font-style: italic;
+  color: #3784c6;
   font-weight: bold;
 }
 
 /* CSS for PacMan below */
 
 #path {
-  margin-bottom: 2em;
+  margin: 5em 2em;
 }
 
 #pacman {
@@ -105,25 +105,38 @@ body {
   animation: pacman 1.5s infinite;
 }
 
-#redy { background-color: red;}
-#orangey { background-color: orange;}
-#bluey { background-color: cyan;}
-#pinky { background-color: pink;}
+#redy {
+  background-color: red;
+}
+#orangey {
+  background-color: orange;
+}
+#bluey {
+  background-color: cyan;
+}
+#pinky {
+  background-color: pink;
+}
 
-.ghost{
+.ghost {
   border-radius: 100% 100% 0 0;
   position: relative;
   margin: auto;
   height: 10em;
   width: 7.5em;
+  /*animation: up-down 1.5s infinite linear;*/
 }
 
 .ghost:hover {
   cursor: pointer;
-  animation: bounce 1.5s;
+  animation: bounce 1s;
 }
 
-.eyes{
+.iris-delay-neg-500 {
+  animation-delay: -500ms;
+}
+
+.eyes {
   height: 60px;
   left: 50%;
   margin-left: -45px;
@@ -132,14 +145,14 @@ body {
   top: 40px;
 }
 
-.eye{
+.eye {
   background: #fff;
   border-radius: 100%;
   height: 65px;
   width: 35px;
 }
 
-.iris{
+.iris {
   background: blue;
   border-radius: 100%;
   height: 33px;
@@ -153,11 +166,19 @@ body {
   animation-delay: -500ms;
 }
 
-.leftEye{ float: left; }
-.leftEye .iris{ left: 7px; }
+.leftEye {
+  float: left;
+}
+.leftEye .iris {
+  left: 7px;
+}
 
-.rightEye{float: right; }
-.rightEye .iris{ left: 7px; }
+.rightEye {
+  float: right;
+}
+.rightEye .iris {
+  left: 7px;
+}
 
 .zig-zag {
   display: block;
@@ -169,33 +190,33 @@ body {
 }
 
 #redy .zig-zag {
-  background: linear-gradient(135deg, red 16px, transparent 0), 
-              linear-gradient(-135deg, red 16px, transparent 0),
-              linear-gradient(-45deg, #161616 16px, transparent 0);
+  background: linear-gradient(135deg, red 16px, transparent 0),
+    linear-gradient(-135deg, red 16px, transparent 0),
+    linear-gradient(-45deg, #1b1b1b 16px, transparent 0);
   background-repeat: repeat-x;
   background-size: 12px 30px;
 }
 
 #orangey .zig-zag {
-  background: linear-gradient(135deg, orange 16px, transparent 0), 
-              linear-gradient(-135deg, orange 16px, transparent 0),
-              linear-gradient(-45deg, #161616 16px, transparent 0);
+  background: linear-gradient(135deg, orange 16px, transparent 0),
+    linear-gradient(-135deg, orange 16px, transparent 0),
+    linear-gradient(-45deg, #1b1b1b 16px, transparent 0);
   background-repeat: repeat-x;
   background-size: 12px 30px;
 }
 
 #bluey .zig-zag {
-  background: linear-gradient(135deg, cyan 16px, transparent 0), 
-              linear-gradient(-135deg, cyan 16px, transparent 0),
-              linear-gradient(-45deg, #161616 16px, transparent 0);
+  background: linear-gradient(135deg, cyan 16px, transparent 0),
+    linear-gradient(-135deg, cyan 16px, transparent 0),
+    linear-gradient(-45deg, #1b1b1b 16px, transparent 0);
   background-repeat: repeat-x;
   background-size: 12px 30px;
 }
 
 #pinky .zig-zag {
-  background: linear-gradient(135deg, pink 16px, transparent 0), 
-              linear-gradient(-135deg, pink 16px, transparent 0),
-              linear-gradient(-45deg, #161616 16px, transparent 0);
+  background: linear-gradient(135deg, pink 16px, transparent 0),
+    linear-gradient(-135deg, pink 16px, transparent 0),
+    linear-gradient(-45deg, #1b1b1b 16px, transparent 0);
   background-repeat: repeat-x;
   background-size: 12px 30px;
 }
