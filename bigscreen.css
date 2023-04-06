@@ -16,13 +16,6 @@ body {
   margin: auto;
 }
 
-#my-name {
-  color: #4ea481;
-  font-size: 1.2em;
-  font-weight: bolder;
-  font-style: italic;
-}
-
 #hamburger {
   display: none;
 }
