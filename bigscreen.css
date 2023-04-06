@@ -21,10 +21,10 @@ body {
 }
 
 #hamburger a {
-  color: #4ea481;
+  color: #1b1b1b;
 }
 .nav-link {
-  color: #4ea481;
+  color: #1b1b1b;
   font-weight: bold;
   font-size: 1em;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 #top-nav-links {
-  border-bottom: solid 0.1em #4ea481;
+  border-bottom: solid 0.1em #1b1b1b;
 }
 
 #top-nav-link-group {
@@ -42,7 +42,7 @@ body {
 }
 
 #top-nav a:hover {
-  color: #1b1b1b;
+  color: #4ea481;
   transition: 0.5s;
 }
 
