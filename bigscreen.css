@@ -1,7 +1,8 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: linear-gradient(-45deg, #D16BA5, #86A8E7, #5FFBF1);
   height: 100vh;
+  /*
+  background: linear-gradient(-45deg, #D16BA5, #86A8E7, #5FFBF1);
   background-size: 500% 500%;
   animation-name: gradient-change;
   animation-duration: 10s;
@@ -12,6 +13,8 @@ body {
   -moz-user-select: none;
   -khtml-user-select: none;
   user-select: none;
+  */
+  background-color: black ;
 }
 
 #name {
@@ -20,13 +23,14 @@ body {
 }
 
 #my-name{
-  color: white;
+  color: #FB2576;
   font-size: 1.2em;
   font-weight: bolder;
+  font-style: italic;
 }
 
 .nav-link {
-  color: black;
+  color: #16FF00;
   font-weight: bold;
   font-size: 1em;
 }
@@ -36,7 +40,7 @@ body {
 }
 
 #top-nav-links {
-  border-bottom: solid 0.1em white;
+  border-bottom: solid 0.1em #FB2576;
 }
 
 #top-nav-link-group {
@@ -44,20 +48,21 @@ body {
 }
 
 #top-nav a:hover {
-  color: white;
+  color: #FB2576;
   transition: 0.5s;
 }
 
 #main-body {
   width: 60%;
   border-radius: 10px;
-  background-color: white;
+  background-color: #161616;
   margin-top: 2em;
-  border: solid;
+  border: solid #FB2576;
 }
 
 #introduction {
   margin: 3em 2em;
+  color: white;
 }
 
 #hello-world {
@@ -69,7 +74,7 @@ body {
 }
 
 #introduction > h1 {
-  color: #86A8E7;
+  color: #31C6D4;
   font-size: 4em;
   font-weight: bold;
 }
@@ -80,7 +85,8 @@ body {
 }
 
 #introduction > p > span {
-  color: #D16BA5;
+  color: #16FF00;
+  font-style: italic;
   font-weight: bold;
 }
 
@@ -165,7 +171,7 @@ body {
 #redy .zig-zag {
   background: linear-gradient(135deg, red 16px, transparent 0), 
               linear-gradient(-135deg, red 16px, transparent 0),
-              linear-gradient(-45deg, white 16px, transparent 0);
+              linear-gradient(-45deg, #161616 16px, transparent 0);
   background-repeat: repeat-x;
   background-size: 12px 30px;
 }
@@ -173,7 +179,7 @@ body {
 #orangey .zig-zag {
   background: linear-gradient(135deg, orange 16px, transparent 0), 
               linear-gradient(-135deg, orange 16px, transparent 0),
-              linear-gradient(-45deg, white 16px, transparent 0);
+              linear-gradient(-45deg, #161616 16px, transparent 0);
   background-repeat: repeat-x;
   background-size: 12px 30px;
 }
@@ -181,7 +187,7 @@ body {
 #bluey .zig-zag {
   background: linear-gradient(135deg, cyan 16px, transparent 0), 
               linear-gradient(-135deg, cyan 16px, transparent 0),
-              linear-gradient(-45deg, white 16px, transparent 0);
+              linear-gradient(-45deg, #161616 16px, transparent 0);
   background-repeat: repeat-x;
   background-size: 12px 30px;
 }
@@ -189,7 +195,7 @@ body {
 #pinky .zig-zag {
   background: linear-gradient(135deg, pink 16px, transparent 0), 
               linear-gradient(-135deg, pink 16px, transparent 0),
-              linear-gradient(-45deg, white 16px, transparent 0);
+              linear-gradient(-45deg, #161616 16px, transparent 0);
   background-repeat: repeat-x;
   background-size: 12px 30px;
 }
